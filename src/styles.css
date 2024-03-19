@@ -1,0 +1,58 @@
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    
+    text-align: center;
+    position: relative;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 37%;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
+  
+  h1 {
+    color: black; /* Set the color of the heading to a light gray */
+  }
+  
+  h2 {
+    color: #007bff; /* Set the color of secondary headings to a shade of blue */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px; /* Add spacing between list items */
+  }
+  
+  .source {
+    font-weight: bold; /* Make the source text bold */
+    color: black; /* Set the color of the source text to a light gray */
+  }
+  
+  .price {
+    color: green; /* Set the color of prices to green */
+  }
+  
+  .average {
+    font-weight: bold;
+    color: red; /* Set the color of average prices to red */
+  }
+  
+  body {
+    background-image: url('/Users/apple/Desktop/cognitive/demo/src/2.jpg');
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-position: center center; /* Center the background image */
+    height: 100vh; /* Set the height of the background to the height of the viewport */
+  }
+  
